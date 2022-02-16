@@ -1,0 +1,40 @@
+header a{
+    text-transform: uppercase;
+    font-family: 'roboto';
+}
+
+h2{
+    padding-top: 15px;
+    text-align: center;
+}
+.seccion-principal{
+    height: 900px;
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.fila1{
+    height: 300px;
+    align-items: center;
+    background-color: #e4e2e2;
+}
+
+.fila2{
+    height: 300px;
+    align-items: center;
+    background-color: #e4e2e2;
+}
+footer{
+color: white;
+text-align: center;
+height: 50px;
+}
+
+/**.fila3{
+height: 300px;
+    padding-top: 15px;
+    align-items: center;
+    font-family: roboto;
+    font-weight: 500;
+}

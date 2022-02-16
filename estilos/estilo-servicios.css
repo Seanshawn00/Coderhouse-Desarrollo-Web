@@ -1,0 +1,60 @@
+header a{
+    text-transform: uppercase;
+    font-family: 'roboto';
+}
+
+.prueba{
+    background-color: #fcfcfc;
+}
+
+
+.col{
+    height: 500px;
+    margin: 10px;
+    background-color: #e4e2e2;
+    text-align: center;
+    border: 10px solid #fcfcfc;
+    border-radius: 15px;
+}
+
+.prueba .fila1{
+    height: 1000px;
+}
+.prueba .fila1 p{
+    padding-bottom: 2rem;
+}
+
+.col i{
+    padding: 3rem;
+    font-size: 100px;
+    
+}
+.contenido-servicios{
+    height: auto;
+}
+
+.contenido-servicios h2{
+    color: #374151;
+    font-family: 'roboto';
+    font-weight: 600;
+    padding: 2rem;
+    text-align: center;
+}
+
+.texto-servicios-1{
+    font-size: 25px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.Servicios-disponibles{
+    padding: 2rem;
+    height: 500px;
+    text-align: center;
+}
+footer{
+    background-color: #102c53;
+    color: white;
+    text-align: center;
+    height: 50px;
+}

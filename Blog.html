@@ -1,50 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/estilos/estilos-blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8b9d4425e0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Nicolas Pasquali Portfolio</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar-global">
-            <ul class="navbar-list">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Sobremi.html">Sobre mi</a></li>
-                <li><a href="Servicios.html">Servicios</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h2>Blog</h2>
-    <section>
-        <h3>Articulo1</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur earum ullam soluta laudantium eaque
-            natus fuga quisquam alias ipsum labore quibusdam, ex porro. Voluptas molestiae labore dolores optio
-            possimus?</p>
-        <h3>Articulo2</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur earum ullam soluta laudantium eaque
-            natus fuga quisquam alias ipsum labore quibusdam, ex porro. Voluptas molestiae labore dolores optio
-            possimus?</p>
-        <h3>Articulo3</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur earum ullam soluta laudantium eaque
-            natus fuga quisquam alias ipsum labore quibusdam, ex porro. Voluptas molestiae labore dolores optio
-            possimus?</p>
-        <h3>Articulo4</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt pariatur earum ullam soluta laudantium eaque
-            natus fuga quisquam alias ipsum labore quibusdam, ex porro. Voluptas molestiae labore dolores optio
-            possimus?</p>
-    </section>
-    <footer>
-        <p>Desarrollado por Nicolas Pasquali - Copyrigth 2021 Todos los derechos reservados</p>
-    </footer>
-</body>
-</html>
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link" href="Sobremi.html">Sobre Mi</a>
+                            <a class="nav-link" href="Servicios.html">Servicios</a>
+                            <a class="nav-link active" href="Blog.html">Blog</a>
+                            <a class="nav-link" href="Contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <h2>Blog</h2>
+        <div class="container-fluid seccion-principal">
+            <div class="row fila1">
+                <div class="col">
+                    <h3>Un tribunal alemán dictamina que los sitios web que incrustan fuentes de Google violan el GDPR</h3>
+                    <p>Un tribunal regional de la ciudad alemana de Múnich ha condenado a un operador de sitios web a pagar
+                        100 euros en concepto de daños y perjuicios por transferir los datos personales de un usuario -es
+                        decir, la dirección IP- a Google a través de la biblioteca de fuentes del gigante de las búsquedas
+                        sin el consentimiento del individuo.</p>
+                </div>
+                <div class="col">
+                    <h3>Adiós a G Suite gratis, se paga por Google Workspace </h3>
+                    <p>Las empresas que todavía utilizan la versión gratuita de G Suite han recibido malas noticias. A
+                        partir del 1 de julio, sólo estarán disponibles las suscripciones a Google Workspace. Esto significa
+                        que, para seguir utilizando los distintos servicios, será obligatorio suscribirse a uno de los
+                        planes de pago. La actualización… </p>
+                </div>
+    
+            </div>
+            <div class="row fila2">
+                <div class="col">
+                    <h3>Comenzando con Bootstrap-Vue paso a paso</h3>
+                    <p>Hoy te mostraremos cómo usar BootstrapVue, describiremos el proceso de instalación y mostraremos la
+                        funcionalidad básica. El proyecto está basado en el framework CSS más popular del mundo - Bootstrap,
+                        para la construcción de páginas de aterrizaje responsive mobile-first y lo combina con Vue.js.
+                        Bootstrap-Vue aún no es compatible con Vue 3.</p>
+                </div>
+                <div class="col">
+                    <h3>Las Mejores Librerias de JavaScript para Aumentar la Productividad</h3>
+                    <p>Todos escribimos mucho código en nuestro día a día. A veces creamos aplicaciones enormes y otras
+                        veces nos pasamos el día escribiendo código para funciones sencillas que quizá no tengamos que
+                        programar en absoluto. </p>
+                </div>
+            </div> 
+        </div>
+        <footer class="bg-dark">
+            <p>Desarrollado por Nicolas Pasquali - Copyrigth 2021 Todos los derechos reservados</p>
+        </footer>
+    </body>
+    
+    </html>

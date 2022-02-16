@@ -1,0 +1,62 @@
+
+header a{
+    text-transform: uppercase;
+    font-family: roboto;
+}
+
+main{
+    background-color: #005f73;
+}
+
+
+.filita{
+    justify-content: center;
+    align-items: center;
+    height: 990px;
+}
+.sobremi-portada{   
+    padding-top: 2rem;
+    
+
+}
+    
+.conocimientos{
+    font-family: roboto;
+    font-weight: 400;
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+    
+.conocimientos li{
+    list-style: none;
+}
+    
+.sobremi-portada-texto{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 2rem;
+    width: 300px;
+    margin-left: 1.5rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+    
+.sobremi-portada-texto h2{
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: center;
+
+}
+.sobremi-portada-texto li{
+    text-align: center;
+    list-style-type: none;
+}
+    
+footer{
+background-color: #102c53;
+color: white;
+text-align: center;
+height: 50px;
+}

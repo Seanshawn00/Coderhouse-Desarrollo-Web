@@ -1,0 +1,17 @@
+header a{
+    text-transform: uppercase;
+    font-family: roboto;
+}
+
+.formulario{
+    padding: 3rem;
+height: 800px;
+}
+
+footer{
+
+    background-color: #102c53;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
